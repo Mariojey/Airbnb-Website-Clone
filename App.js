@@ -11,7 +11,10 @@ export default function App() {
         <div>
             <Navbar />
             <Header />
-            <Card />
+            <Card
+                name="Life Lessons with Katie Zaferes"
+                price="From $136"
+            />
         </div>
     )
 }
