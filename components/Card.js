@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function Card(props) {
+export default function Card({name, price}) {
     return (
         <div className="card">
             <img src="../images/katie-zaferes.png" className="card--image" />
@@ -10,8 +10,8 @@ export default function Card(props) {
                 <span className="gray">(6) • </span>
                 <span className="gray">USA</span>
             </div>
-            <p>{props.name}</p>
-            <p><span className="bold">{props.price}</span> / person</p>
+            <p>{name}</p>
+            <p><span className="bold">{price}</span> / person</p>
         </div>
     )
 }
