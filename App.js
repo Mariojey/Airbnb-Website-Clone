@@ -13,7 +13,10 @@ export default function App() {
             <Header />
             <Card
                 name="Life Lessons with Katie Zaferes"
-                price="From $136"
+                price="136"
+                rating="5.0"
+                reviewCount="6"
+                country="PL"
             />
         </div>
     )
